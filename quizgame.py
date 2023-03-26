@@ -13,20 +13,40 @@ if playerInput.lower() != "yes":
 print("Alllrrrriiiight then :/")
 score = 0
 # QUESTION ONE: "WHAT COLOR WERE THE FIRSTS TESLAS"  (WHITE)
-input("WHAT COLOR WERE THE FIRST TESLAS?  ")
-# QUESTION TWO: "WHAT YEAR WAS WW2"   (1939)
-input("WHAT YEAR WAS WW2?  ")
-# QUESTION THREE: "WHAT WAS OUR FIRST PRESIDENTS LAST NAME"    (WASHINGTON)
-input("WHAT WAS OUR FIRST PRESIDENTS LAST NAME?  ")
-# QUESTION FOUR: "WHAT YEAR WAS THE GREAT DEPRESSION START"   (1929)
-input("WHAT YEAR DID THE GREAT DEPRESSION START?  ")
+playerAnswer = input("WHAT COLOR WERE THE FIRST TESLAS?  ")
+if playerAnswer.lower() == "WHITE":
+    print("omg, who are you! Great Job!")
+    score += 5
+else:
+    print("Not even close, but still great effort <3")
 
+# QUESTION TWO: "WHAT YEAR WAS WW2"   (1939)
+playerAnswer = input("WHAT YEAR WAS WW2?  ")
+if playerAnswer.lower() == "1939":
+    print( "Woohooo! Nice one")
+    score += 5
+else:
+    print("NOPE")
+# QUESTION THREE: "WHAT WAS OUR FIRST PRESIDENTS LAST NAME"    (WASHINGTON)
+playerAnswer = input("WHAT WAS OUR FIRST PRESIDENTS LAST NAME?  ")
+if playerAnswer.lower() == "WASHINGTON":
+    print("You so smart, you history buff, you")
+    score += 5
+else:
+    print("Think again")
+# QUESTION FOUR: "WHAT YEAR WAS THE GREAT DEPRESSION START"   (1929)
+playerAnswer = input("WHAT YEAR DID THE GREAT DEPRESSION START?  ")
+if playerAnswer.lower() == "1929":
+    print("Lets GoOoOoOoOoOOoOo")
+    score += 5
+else:
+    print("NOPE")
 # NOW LET'S COUNT OUR SOLUTIONS
 # NPC CORRECT OPTIONS:
 # "Woohooo! Nice one"
 # "omg, who are you! Great Job!"
 # "Lets GoOoOoOoOoOOoOo"
-# "You so smart, you human, you"
+# "You so smart, you history buff, you"
 
 # NPC INCORRECT OPTIONS:
 # "WRONG, try again though, you got this"
