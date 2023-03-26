@@ -38,7 +38,7 @@ else:
 playerAnswer = input("WHAT YEAR DID THE GREAT DEPRESSION START?  ")
 if playerAnswer.lower() == "1929":
     print("Lets GoOoOoOoOoOOoOo")
-    score += 2yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss5
+    score += 25
 else:
     print("NOPE")
 # NOW LET'S COUNT OUR SOLUTIONS
