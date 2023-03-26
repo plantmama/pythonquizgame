@@ -14,9 +14,9 @@ print("Alllrrrriiiight then :/")
 score = 0
 # QUESTION ONE: "WHAT COLOR WERE THE FIRSTS TESLAS"  (WHITE)
 playerAnswer = input("WHAT COLOR WERE THE FIRST TESLAS?  ")
-if playerAnswer.lower() == "WHITE":
+if playerAnswer.lower() == "white":
     print("omg, who are you! Great Job!")
-    score += 5
+    score += 25
 else:
     print("Not even close, but still great effort <3")
 
@@ -24,21 +24,21 @@ else:
 playerAnswer = input("WHAT YEAR WAS WW2?  ")
 if playerAnswer.lower() == "1939":
     print( "Woohooo! Nice one")
-    score += 5
+    score += 25
 else:
     print("NOPE")
 # QUESTION THREE: "WHAT WAS OUR FIRST PRESIDENTS LAST NAME"    (WASHINGTON)
 playerAnswer = input("WHAT WAS OUR FIRST PRESIDENTS LAST NAME?  ")
-if playerAnswer.lower() == "WASHINGTON":
+if playerAnswer.lower() == "washington":
     print("You so smart, you history buff, you")
-    score += 5
+    score += 25
 else:
     print("Think again")
 # QUESTION FOUR: "WHAT YEAR WAS THE GREAT DEPRESSION START"   (1929)
 playerAnswer = input("WHAT YEAR DID THE GREAT DEPRESSION START?  ")
 if playerAnswer.lower() == "1929":
     print("Lets GoOoOoOoOoOOoOo")
-    score += 5
+    score += 2yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss5
 else:
     print("NOPE")
 # NOW LET'S COUNT OUR SOLUTIONS
@@ -55,5 +55,4 @@ else:
 # "Think again"
 
 # END OF QUIZ REACTION: "GOOD JOB, YOU ARE FINISHED"
-print("GOOD JOB, YOU ARE FINISHED  " + "YOU SCORED  ")
-
+print("GOOD JOB, YOU ARE FINISHED, YOU SCORED  " + str(score))
